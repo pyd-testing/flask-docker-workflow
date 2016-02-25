@@ -16,6 +16,7 @@ class MainTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.data, 'Flask is running on Docker!')
 
-
 if __name__ == '__main__':
+
+    print "argh"
     unittest.main()
